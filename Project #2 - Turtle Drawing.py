@@ -30,7 +30,7 @@ def create_clouds():
     
     pen.color('White')
     pen.pensize(5)
-    pen.speed(15)
+    pen.speed(10)
     pen.pendown()
     pen.begin_fill()
     for i in range(4):
@@ -146,8 +146,8 @@ def create_umbrellas():
     pen.right(270)
     pen.forward(50)
     pen.begin_fill()
-    pen.circle(25,180)
-    pen.left(90)
+    pen.circle(-25,180)
+    pen.right(90)
     pen.forward(50)
     pen.end_fill()
     pen.penup()
@@ -198,7 +198,7 @@ pen.left(45)
 create_coloured_blankets()
 
 pen.penup()
-pen.goto(-275,-275)
+pen.goto(-300,-275)
 pen.pendown()
 pen.right(90)
 pen.left(45)
