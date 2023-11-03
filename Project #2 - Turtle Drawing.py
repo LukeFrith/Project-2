@@ -7,7 +7,7 @@ pen = turtle.Turtle()
 
 
 def create_Sun():
-    
+
     pen.color("Yellow")
     pen.pensize(5)
     pen.speed(10)
@@ -204,12 +204,6 @@ pen.right(90)
 pen.left(45)
 
 create_coloured_umbrellas()
-
-pen.penup()
-pen.goto(315,-100)
-pen.pendown()
-
-
 
 
 turtle.done()
