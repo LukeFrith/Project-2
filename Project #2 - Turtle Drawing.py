@@ -30,7 +30,7 @@ def create_clouds():
     
     pen.color('White')
     pen.pensize(5)
-    pen.speed(10)
+    pen.speed(15)
     pen.pendown()
     pen.begin_fill()
     for i in range(4):
