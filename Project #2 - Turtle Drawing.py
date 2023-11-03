@@ -151,7 +151,7 @@ def create_umbrellas():
     pen.forward(50)
     pen.end_fill()
     pen.penup()
-    pen.right(90)
+    pen.left(90)
     pen.forward(50)
     pen.left(90)
     pen.forward(175)
